@@ -21,10 +21,8 @@ h1, h2, h3 {
     font-weight: normal;
 }
 
-a         { color: #000; }
+a         { color: #345394; }
 a:hover   { color: #333; }
-a:visited { color: #333; }
-a:visited:hover { color: #666; }
 
 p {
     margin: 0 0 1em;
@@ -84,7 +82,7 @@ p {
             text-decoration: none;
         }
         .header .userpic {
-            margin-bottom: 20px;
+            margin-bottom: 10px;
             font-size: 0;
             line-height: 0;          
         }
@@ -95,12 +93,7 @@ p {
 
     .title {
         margin: 0;
-        }
-        .title a {
-            color: #345394;
-        }
-        .title a:hover {
-            color: #000;
+        font-size: 25px;
         }
 
 
@@ -151,32 +144,28 @@ p {
 }
 
 /* standard */
-.post pre {
+pre {
     border: 1px solid #ddd;
     background-color: #eef;
     padding: 0 .4em;
 }
 
-.post ul, .post ol {
-    margin-left: 1.35em;
-}
-
-.post code {
+code {
     border: 1px solid #ddd;
     background-color: #eef;
     padding: 0 .2em;
 }
 
-.post pre code {
+pre code {
     border: none;
 }
 
 /* terminal */
-.post pre.terminal {
+pre.terminal {
     border: 1px solid #000;
     background-color: #333;
     color: #FFF;
     }
-    .post pre.terminal code {
+    pre.terminal code {
         background-color: #333;
     }
