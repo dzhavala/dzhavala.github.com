@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Hello world!"
+date:   2014-02-20 14:12:51
+categories: jekyll update
+---
+
+Lorem ipsum to you!
+
+<!--more-->
+
+Ololo
