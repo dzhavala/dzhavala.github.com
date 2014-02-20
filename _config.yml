@@ -1,4 +1,4 @@
-name: My Blog
+name: Мій блог
 markdown: redcarpet
 pygments: true
 permalink: /:title

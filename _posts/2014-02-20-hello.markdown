@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Hello world!"
+title:  "Привіт, світ!"
 date:   2014-02-20 14:12:51
 categories: jekyll update
 ---
 
-Lorem ipsum to you!
+Перший блог-пост. Тестую і налаштовую jekyll...
 
 <!--more-->
 
