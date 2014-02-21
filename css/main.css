@@ -63,13 +63,19 @@ p {
 /*****************************************************************************/
 
 .layout {
-    width: 40em;
+    width: 90%;
     margin: 0 auto;
     min-height: 100%;
     }
     .layout-inner {
         padding-bottom: 100px;
     }
+
+@media screen and (min-width: 50em) {
+    .layout {
+        width: 40em;
+    }
+}
 
 /* =============
  HEADER
@@ -101,14 +107,13 @@ p {
  FOOTER
 ============= */
 .footer {
-    height: 70px;
     border-top: 5px solid #eee;
-    width: 40em;
+    width: 90%;
     margin: -75px auto 0;
     overflow: hidden;    
     }
     .footer-inner {
-        padding-top: 15px;
+        padding: 15px 0;
         font-size: 70%;
         line-height: 1.5;
         color: #666;
@@ -117,14 +122,22 @@ p {
     .footer p {
         margin: 0 0 5px;
     }
-    .footer .contact {
-        float: left;
-        margin-right: 3em;
+    .footer .contact {       
         }
         .footer .contact a {
             color: #666;
         }
 
+@media screen and (min-width: 50em) {
+    .footer {
+        width: 40em;
+        height: 70px;
+    }
+    .footer .contact {
+        float: left;
+        margin-right: 3em;
+        }
+}
 /*****************************************************************************/
 /*
 /* Posts
