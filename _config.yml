@@ -1,6 +1,6 @@
 name: Мій блог
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 permalink: /:title
 paginate: 5
 excerpt_separator: <!--more-->

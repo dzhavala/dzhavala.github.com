@@ -235,6 +235,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "blog.sublime-project",
+			"settings":
+			{
+				"buffer_size": 108,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "Packages/JSLint/JSLint.sublime-build",
 	"command_palette":
@@ -316,6 +324,7 @@
 	},
 	"file_history":
 	[
+		"/Users/yura/Work/Jekyll blog/blog.sublime-project",
 		"/Users/yuriy_dzhavala/Work/yuradzhavala.github.com/blog.sublime-project",
 		"/Users/yuriy_dzhavala/Work/mobify/chewy.com/chewy.com.sublime-project",
 		"/Users/yuriy_dzhavala/Work/mobify/chewy.com/work/src/js/checkout-from-desktop.js",
@@ -442,8 +451,7 @@
 		"/Users/yuriy_dzhavala/Work/mobify/chewy.com/work/src/js/main-desktop.js",
 		"/C/Users/Yuriy_Dzhavala@epam.com/Desktop/mobify/chewy.com/chewy.com/src/scss/layout/_header.scss",
 		"/C/Users/Yuriy_Dzhavala@epam.com/Desktop/mobify/chewy.com/chewy.com/src/scss/layout/_global-bar.scss",
-		"/C/Users/Yuriy_Dzhavala@epam.com/Desktop/mobify/chewy.com/chewy.com/src/scss/layout/_pet-subnav.scss",
-		"/C/Users/Yuriy_Dzhavala@epam.com/Desktop/mobify/chewy.com/chewy.com/src/scss/layout/_petNav.scss"
+		"/C/Users/Yuriy_Dzhavala@epam.com/Desktop/mobify/chewy.com/chewy.com/src/scss/layout/_pet-subnav.scss"
 	],
 	"find":
 	{
@@ -609,8 +617,38 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "blog.sublime-project",
+					"settings":
+					{
+						"buffer_size": 108,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								98,
+								98
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -656,6 +694,10 @@
 	"output.jslint_result_view":
 	{
 		"height": 245.0
+	},
+	"output.sftp":
+	{
+		"height": 100.0
 	},
 	"replace":
 	{
